@@ -73,11 +73,11 @@ Appium_Framework/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/jluisvacan/Appium_MobileTesting.git
-   cd Appium_MobileTesting
+   git clone https://github.com/jluisvacan/Appium_Framework
+   cd Appium_Framework
     ```
 
-2. **Execute Test Suite via Maven::**
+2. **Execute Test Suite via Maven:*
    ```bash
    mvn clean test
    ```
