@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.academy.testUtils.Listeners"/>
+    </listeners>
+    <test thread-count="1" name="End to End Framework">
+        <classes>
+            <class name="com.academy.android.tests.tc_3_E2E"> </class>
+        </classes>
+    </test>
+    <test thread-count="1" name="Error Validation Test">
+        <classes>
+            <class name="com.academy.android.tests.tc_1_Validation_Login"> </class>
+        </classes>
+    </test>
+</suite>
